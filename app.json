@@ -1,7 +1,7 @@
 {
   "name": "Rutube _XD",
   "repository": "https://github.com/Justxd22/rutubeXD",
-  "logo": "https://telegra.ph/file/2110febb66fff9c700d08.jpg",
+  "logo": "",
   "keywords": [
     "ru","XD"
   ],
@@ -17,7 +17,7 @@
   "app_hash": {
     "required": true,
     "description": "Your telegram bot app hash"
-  },
+  }
   }
 }
 
