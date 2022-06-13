@@ -5,7 +5,7 @@ from pyrogram.types import ReplyKeyboardMarkup
 token = os.getenv("token", "") #telegram bot token
 app_id = os.getenv("app_id", "")
 app_hash = os.getenv("app_hash", "")
-
+logGroup =  os.getenv("logGroup", False) # change this to group id
 
 x = datetime.datetime.utcnow()
 i = x + datetime.timedelta(hours=3)
@@ -16,7 +16,6 @@ print("My PID is:", os.getpid())
 
 if len(str(token)) < 5: print("please put your token in env"); sys.exit(1)
 
-logGroup = False # change this to group id
 
 keybd = ReplyKeyboardMarkup([
      ['🤖 Ping', '⁉️ Help', '👀Who?'],

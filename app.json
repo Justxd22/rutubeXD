@@ -17,6 +17,10 @@
   "app_hash": {
     "required": true,
     "description": "Your telegram bot app hash"
+  },
+  "logGroup": {
+    "required": false,
+    "description": "Group id to send logs to,leave empty to disable"
   }
   }
 }
