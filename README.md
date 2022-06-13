@@ -1,9 +1,5 @@
 # Rutube_XD
 
-<div align="center">
-<img src="https://telegra.ph/file/61b92100e63e4bc6efd6e.jpg" width="200" height="200"  alt="logo" />
-</div>
-
 Features :] :
  - Amazing download speeds
  - Up to 4k resolutions supported
@@ -22,7 +18,7 @@ Features :] :
 enjoy :)
 
 # Setup
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/JecTVw?referralCode=4_MSke)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Jj6vqk?referralCode=4_MSke)
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Justxd22/rutubeXD)
 
 ### Railway
