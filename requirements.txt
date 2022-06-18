@@ -2,3 +2,4 @@ pyrogram
 tgcrypto
 requests
 https://github.com/Tinche/aiofiles/archive/master.zip
+m3u8
