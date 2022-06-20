@@ -36,13 +36,22 @@ and a deploy template everything is set up for you.
 
 ### Local deploy
   - clone this repo
-    `git clone https://github.com/Justxd22/moneroo_xd && cd moneroo_xd/`
+    `git clone https://github.com/Justxd22/rutubeXD && cd rutubeXD/`
   - install requirements with pip
     `pip install ./requirements.txt`
   - fill in stuff.py with your env
+  - Install ffmpeg if you're on linux use apt if not google 'how to install ffmpeg'
+    `apt install ffmpeg`
   - run bot.py
     `python3 bot.py`
   - enjoy!! :]
+
+### Docker
+  - Clone or download Dockerfile
+  - set your env in .env.sample file  
+    then rename it to .env
+  - Build Dockerfile
+  - run container
 
 # Credits
 
