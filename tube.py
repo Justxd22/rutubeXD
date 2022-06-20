@@ -119,7 +119,7 @@ async def download(c, m, savetoken, res):
           return "processed"
 
 
-       path = savetoken.title + ".mp4"
+       path = (savetoken.title).replace('/','') + ".mp4"
        cmd  = f"ffmpeg -y -i '{link}' -c copy -id3v2_version 3 -metadata title='{savetoken.title}' -metadata artist='{savetoken.artist}' '{path}'"
 
        code = await runShell(cmd, savetoken)

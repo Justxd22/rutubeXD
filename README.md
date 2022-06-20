@@ -35,6 +35,7 @@ and a deploy template everything is set up for you.
   - enjoy!
 
 ### Local deploy
+## Normal 
   - clone this repo
     `git clone https://github.com/Justxd22/rutubeXD && cd rutubeXD/`
   - install requirements with pip
@@ -46,12 +47,18 @@ and a deploy template everything is set up for you.
     `python3 bot.py`
   - enjoy!! :]
 
-### Docker
+## Docker
   - Clone or download Dockerfile
   - set your env in .env.sample file  
     then rename it to .env
-  - Build Dockerfile
-  - run container
+  - Build Dockerfile  
+    `docker build .`
+  - Find image id then run it  
+    `docker images` --> copy your image id  
+    `docker run YOURID`  
+    Or run with -it to see logs  
+    `docker run -it YOURID` 
+
 
 # Credits
 
