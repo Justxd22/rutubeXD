@@ -5,6 +5,7 @@
   "keywords": [
     "ru","XD"
   ],
+  "stack": "container",
   "env":{
   "token": {
     "required": true,
