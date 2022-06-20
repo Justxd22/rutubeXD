@@ -1,5 +1,6 @@
 # /bin/bash
 
+cd /tube/
 
 if [ -f .env ]; then set -o allexport; source .env; set +o allexport ; echo "using env!" ; fi
 
